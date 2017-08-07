@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="app.mvpsederhana.MainActivity">
+
+    <TextView
+        android:id="@+id/main_tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:text="MVP Sederhana"
+        android:textColor="@android:color/black"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/main_tv_url"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="URL" />
+
+    <Button
+        android:id="@+id/main_btn_exec"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Eksekusi Api" />
+
+    <TextView
+        android:id="@+id/main_tv_response"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="response disini..." />
+
+</LinearLayout>
